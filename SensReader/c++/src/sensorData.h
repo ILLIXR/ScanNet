@@ -1346,7 +1346,7 @@ namespace ml {
 
 				std::stringstream ss;
 				ss << "P5\n";
-				ss << "# data values are 16-bit each; depth shift is " << m_depthShift << "\n";
+				// ss << "# data values are 16-bit each; depth shift is " << m_depthShift << "\n";
 				ss << width << " " << height << "\n";
 				ss << std::numeric_limits<unsigned short>::max() << "\n";
 				of << ss.str();
